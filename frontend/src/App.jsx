@@ -12,6 +12,8 @@ import Community from "./components/home/Community";
 import Projects from "./components/home/Projects";
 import Forums from "./components/home/Forums";
 import "./assets/scroller.css";
+
+// Just Change
  
 function App() {
   const navigate = useNavigate();
