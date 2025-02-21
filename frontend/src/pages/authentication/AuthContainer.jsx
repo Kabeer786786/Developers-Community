@@ -147,11 +147,11 @@ export default function AuthContainer({ setIsAuthentic, handleLogin, setUserId }
           <h1 className="text-3xl font-semibold mb-8">Create Password</h1>
           <div className="flex justify-center items-center border-b-2  mb-4">
             <FaLock size={"20px"} />
-            <input type="password" onChange={handleChange} placeholder="Enter the Password" className="w-full placeholder-gray-200 text-lg focus:outline-none  p-3 bg-transparent " required />
+            <input  name='password' type="password" onChange={handleChange} placeholder="Enter the Password" className="w-full placeholder-gray-200 text-lg focus:outline-none  p-3 bg-transparent " required />
           </div>
           <div className="flex justify-center items-center mb-8 border-b-2 ">
             <FaUserLock size={"20px"} />
-            <input type="text" onChange={handleChange} placeholder="Confirm Password" className="w-full placeholder-gray-200 text-lg  focus:outline-none p-3  bg-transparent" required />
+            <input name='confirmPassword' type="text" onChange={handleChange} placeholder="Confirm Password" className="w-full placeholder-gray-200 text-lg  focus:outline-none p-3  bg-transparent" required />
           </div>
           <button onClick={handleSubmitSignup} className="w-full bg-purple-500 text-white p-2 rounded-lg text-lg font-semibold mb-4 hover:bg-purple-600">Create Password</button>
           <div className="flex items-center mb-4">
