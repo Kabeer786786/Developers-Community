@@ -7,9 +7,9 @@ dotenv.config();
 
 
 const users = [
-  { _id: new mongoose.Types.ObjectId(), name: "Alice Johnson", email: "alice@example.com", password: "hashedpassword1" },
-  { _id: new mongoose.Types.ObjectId(), name: "Bob Smith", email: "bob@example.com", password: "hashedpassword2" },
-  { _id: new mongoose.Types.ObjectId(), name: "Charlie Brown", email: "charlie@example.com", password: "hashedpassword3" },
+  { _id: new mongoose.Types.ObjectId(),username: "Alice", name: "Alice Johnson", email: "alice@example.com", password: "hashedpassword1" },
+  { _id: new mongoose.Types.ObjectId(),username: "Bob",  name: "Bob Smith", email: "bob@example.com", password: "hashedpassword2" },
+  { _id: new mongoose.Types.ObjectId(),username: "Charlie",  name: "Charlie Brown", email: "charlie@example.com", password: "hashedpassword3" },
 ];
 
 const insertUsers = async () => {
